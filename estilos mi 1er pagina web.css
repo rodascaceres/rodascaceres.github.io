@@ -1,0 +1,90 @@
+body {
+font-family: times new roman;
+background-color: pink;}
+
+h1 {
+color: black;
+}
+p {
+text-align: justify;}
+.credits {
+text-align: right;}
+h2{
+text-align: center;}
+
+body {
+font-family: Arial, Verdana, sans-serif;
+color: #111111;}
+
+
+h2{font-family: times new roman;}
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid green;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: palevioletred;
+  }
+
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    background-color:black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    display: block;
+}
+
+nav a:hover {
+    background-color: yellow;
+}
+
+section {
+    padding: 1em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

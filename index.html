@@ -1,0 +1,111 @@
+<html>
+<head>
+		<title> mi primer pagina web</title>
+		
+	<link rel="stylesheet" href="./estilos mi 1er pagina web.css">
+</head>
+<body>
+
+  <h1><center><font face="Times New Roman" size=7>IMPORTADORA FRENOCAR CBBA</font></center></h1>
+  <nav>
+      <ul>
+          <li><a href="../../inicio">Inicio</a></li>
+          <li><a href="../../nosotros">Nosotros</a></li>
+          <li><a href="../../repuestos">Repuestos</a></li>
+          <li><a href="../../contactos">Contactos</a></li>
+      </ul>
+  </nav>
+
+
+<img src="C:\Users\JHANET\Desktop\DISENO Y PROG 2DO BIMESTRE\MI PAGINA\imagenes/logo1.png" height="110" width="120"/>
+
+
+
+<center><img src="C:\Users\JHANET\Desktop\DISENO Y PROG 2DO BIMESTRE\MI PAGINA\imagenes/frenocar1.jpg"
+class="large" alt="Magnolia" /></center>
+
+<p>Frenocar dio inicio a su actividad con una pequeña tienda, alrededor del año 
+2009; 	debido al incremento de la demanda de repuestos y al crecimiento del 
+parque automotor del país, fue creciendo a pasos agigantados, siendo una de las
+más antiguas, con experiencia desde 2009 y actualmente consolidándose como la
+mayor empresa del rubro a nivel nacional, conocida como LA EMPRESA MULTI-MARCAS,
+debido a la variedad de repuestos de frenos de equipo pesado y liviano.</p>
+<p>La oficina central se encuentra ubicada en la Avenida 5to anillo Z/La Cuchilla
+ Nº 5050, un lugar muy estratégico y de fácil accesibilidad. Además cuenta con 
+cinco sucursales -en diferentes puntos de la ciudad ofreciendo facilidad y mayores
+ vías de acceso a nuestros clientes</p>
+
+<h2>MISION</h2>
+<p>Ofrecer materiales de fricción para diferentes tipos de vehículos, brindando calidad, seguridad y confianza al momento de utilizar nuestros productos</p>
+<h2>VISION</h2>
+<p>Ser una empresa reconocida mundialmente por ofrecer productos con características excepcionales</p>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U6uFeFGvy3g" 
+title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+<h2>NUESTROS PRODUCTOS</h2>
+
+<button onclick="agregarRepuesto()">Agregar Repuesto</button>
+
+<table id="tablaRepuestos">
+  <tr>
+    <th>Descrpccion</th>
+    <th>Marca</th>
+    <th>Precio</th>
+  </tr>
+</table>
+
+<script>
+  function agregarRepuesto() {
+    var nombre = prompt("Ingrese el nombre del repuesto:");
+    var marca = prompt("Ingrese la marca del repuesto:");
+    var precio = prompt("Ingrese el precio del repuesto:");
+
+    if (nombre && marca && precio) {
+      var table = document.getElementById("tablaRepuestos");
+      var row = table.insertRow(-1);
+      var cell1 = row.insertCell(0);
+      var cell2 = row.insertCell(1);
+      var cell3 = row.insertCell(2);
+      cell1.innerHTML = nombre;
+      cell2.innerHTML = marca;
+      cell3.innerHTML = precio;
+    } else {
+      alert("Por favor, complete todos los campos.");
+	  
+    }
+  }
+
+</script>
+	
+<h2>UBICACION</h2>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3798.209887225878!2d-63.2009858!3d-17.8287932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93f1e975d420aeef%3A0xbae6f182e7f9d9e5!2sFRENOCAR%20CBBA!5e0!3m2!1ses!2sbo!4v1686977534685!5m2!1ses!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
+referrerpolicy="no-referrer-when-downgrade"></iframe>
+</iframe>
+</div>
+
+
+
+
+<h2>CONTACTOS</h2>
+
+<p><strong><center>Teléfonos</strong>: <a rel="noreferrer noopener" aria-label=" (abre en una nueva pestaña)" href="http://api.whatsapp.com/send?phone=59163630747" target="_blank">+591 59163630747</a> &#8211; <a rel="noreferrer noopener" aria-label=" (abre en una nueva pestaña)" href="http://api.whatsapp.com/send?phone=59163630747" target="_blank">+591 75665745.</a></p>
+
+	<p>
+		<center>facebook:<a href="https://www.facebook.com/frenocar.bo/" target="_blank">Visita nuestra pagina</a></center>
+	</p>
+
+<p class="note">
+		Esta pagina fue diseñada por
+		<a href="mailto:ivy@example.org">
+		Jhanet Rodas Caceres</a> 
+    
+
+		<script src="./app.js"></script>
+</body>
+</html>
